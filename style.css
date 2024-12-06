@@ -1,0 +1,72 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    background-color: #f0f0f0;  
+}  
+nav {  
+    background-color: #333;  
+    color: white;  
+    padding: 10px;  
+    text-align: center;  
+}  
+nav a {  
+    color: white;  
+    margin: 0 10px;  
+    text-decoration: none;  
+}  
+nav a:hover {  
+    text-decoration: underline;  
+}  
+.container {  
+    display: flex;  
+    margin-top: 20px;  
+}  
+.sidebar {  
+    background-color: #a2d4e7;  
+    padding: 20px;  
+    width: 200px;  
+}  
+.content {  
+    flex: 1;  
+    padding: 20px;  
+    background-color: white;  
+}  
+.image-placeholder {  
+    width: 150px;  
+    height: 150px;  
+    background-color: #707070;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    color: white;  
+    font-weight: bold;  
+    margin-bottom: 20px;  
+}  
+footer {  
+    text-align: center;  
+    margin-top: 20px;  
+    padding: 10px;  
+    background-color: #333;  
+    color: white;  
+}  
+
+
+* {box-sizing:border-box}
+
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.Csharp {width: 60%; background-color: #808080;} /* Dark Grey */
